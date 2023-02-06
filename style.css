@@ -1,0 +1,45 @@
+.use{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    border-bottom: 4px solid black;
+    position: relative;
+    animation-name: line;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes line {
+    0%{
+        color: aqua;
+    }
+    25%{
+        color: brown;
+    }
+    50%{
+        color:green;
+    }
+    75%{
+        color: orangered;
+    }
+    100%{
+        color: blue;
+    }
+}
+#fu{
+    display: flex;
+     height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 30px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: yellow; 
+    box-shadow: 0px 0px 5px yellow,0px 0px 25px yellow,0px 0px 50px yellow
+}
